@@ -1,21 +1,41 @@
 body {
-    font-family: sans-serif;
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;   /* center content */
+    max-width: 800px; /* limit width */
     line-height: 1.5;
-  
-    background-color: #f9f9f9;
-    color: #333333;
-  
-    width: 980px;
-    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   
+  /* BEGIN (write your solution here) */
+  p {
+   padding-bottom: 12px;
+  }
+  .header-title {
+    font-weight:400;
+  }
   h1 {
-    text-align: center;
     font-size: 36px;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
-  
-  main > h2 {
+  h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #CCC;
+  }
+  #header h2{
+    font-size: 18px;
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
+  #header {
+    margin-bottom: 32px;
     text-align: center;
-    font-size: 25px;
   }
+  #footer {
+    margin-top: 64px;
+    text-align: center;
+  }
+  /* END */
+  
